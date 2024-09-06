@@ -28,6 +28,19 @@ The development of the Airbnb-like database followed a structured approach to en
 
 8. **Documentation**: Throughout the process, I maintained detailed documentation of the database design, SQL statements, and test results to ensure clarity and facilitate future maintenance or updates.
 
+## Database overview
+- Total size: 0.844 Mb
+- Number of tables: 24
+- Total number of entries: 714
+
+## Key Features
+- User management: the database stores comprehensive information about users then split into profiles for both guests and hosts, encompassing personal details, contact information, and preferences. Additionally, it securely manages user credentials and facilitates social media integration for enhanced user experience.
+- Property listings: hosts can create and manage detailed property listings, specifying property types, amenities, house rules, cancellation policies, and availability. This information is crucial for guests to make informed booking decisions.
+- Booking and availability management: the database efficiently handles bookings, tracking reservation details, guest information, and financial transactions. It also maintains real-time availability calendars to prevent double bookings and ensure accurate occupancy rates.
+- Financial transactions: securely recording and processing payments, refunds, and commission fees are key tasks. The database provides a transparent record of all financial interactions.
+- Reviews and ratings: guests and hosts can leave reviews and ratings for each other, fostering trust and transparency within the platform's community. The database aggregates this feedback to showcase property and host reputations.
+- Communication and support: the platform facilitates communication between guests and hosts through an internal messaging system. Additionally, it manages support tickets to address user inquiries and resolve disputes effectively.
+
 ## Tools used
 
 - MySQL Workbench for database modeling and management
